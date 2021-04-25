@@ -32,4 +32,8 @@ class BorderRadiusConstant {
           35,
         ),
       );
+
+  BorderRadius get addtocardBorderRadius => BorderRadius.all(
+        Radius.circular(30),
+      );
 }

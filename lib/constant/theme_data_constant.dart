@@ -64,4 +64,23 @@ class ThemeDataConstant {
           ),
         ),
       );
+
+  ThemeData get detayTextThemeData => ThemeData(
+        textTheme: TextTheme(
+          headline5: TextStyle(
+            color: Colors.black,
+            fontSize: 17,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+      );
+
+  ThemeData get teslimatTextThemeData => ThemeData(
+        textTheme: TextTheme(
+          headline5: TextStyle(
+            color: Colors.black,
+            fontSize: 15,
+          ),
+        ),
+      );
 }
